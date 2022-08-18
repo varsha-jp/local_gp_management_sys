@@ -1,0 +1,290 @@
+*{
+    font-family: monospace, monaco;
+    text-align: center;
+}
+.landing-h1{
+    font-size: 40px;
+    color: aliceblue;
+    background-color: rgba(36, 114, 165, 0.8);
+}
+h1{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #a5242472;
+}
+h4{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #2471a572;
+}
+h5{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #2471a572;
+}
+p{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #015892de;
+}
+.back{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #015892de;
+    padding: 10px;
+    width: 60px;
+}
+a{
+    float:right;
+    padding: 10px;
+}
+
+/* Background images */
+.landingpage-body{
+    background-image: url("images/blue-pills.jpg");
+    background-size: 100% 220%;
+}
+.patient-reg-body{
+    background-image: url("images/orange-bottle.jpg");
+    background-size: 100% 110%;   
+}
+.patient-login-body{
+    background: linear-gradient(172deg, #2471a5 0%, #fff 100%); 
+    background-size: 100% 220%;
+}
+.doc-login-body{
+    background: linear-gradient(172deg, #2471a5 0%, #fff 100%);
+    background-size: 100% 220%;
+}
+.patient-home-body{
+    background-image: url("images/antomy.jpg");
+    background-size: 100% 220%;
+}
+.patient-profile-body{
+    /* background: linear-gradient(172deg, #00698E 0%, #fff 100%);  */
+    background-image: url("images/pill-bottle.jpg");
+    background-size: 120% 130%; 
+}
+.book-appt{
+    background-image: url("images/tools.jpg");
+    background-size: 100% ;
+}
+.view-doc-hours-body{
+    background-image: url("images/tools-2.jpg");
+    background-size: 100% ;
+}
+.history-body{
+    background-image: url("images/stethoscope.jpg");
+    background-size: 100% ;
+}
+.doc-home-body{
+    background-image: url("images/skeleton-2.jpg");
+    background-size: 100%;   
+}
+.about-body{
+    background-image: url("images/tablets.jpg");
+    background-size: 100%;
+}
+.ip-body{
+    background-image: url("images/blue-pills-2.jpg");
+    background-size: 100%;
+}
+
+
+/* Forms */
+/* form{
+    background-color: rgba(36, 114, 165, 0.5);
+    padding: 15px 30px;
+} */
+.patient-reg-form{
+    background-color: rgb(16, 59, 100, 0.4);
+    right: 0 ;
+  margin: 20px;
+  max-width: 600px;
+  padding: 16px;
+  border-radius: 4px;  
+}
+.book-appt-form{
+    display: inline-block;
+    background-color: rgb(16, 59, 100, 0.8);
+    margin: 20px;
+    max-width: 500px;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+/* Tables */
+.view-doc-hours-tab{
+    color: rgb(25, 81, 130);
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid rgb(0, 94, 157);
+    border-collapse: collapse;
+    background-color: rgba(190, 229, 255, 0.9);
+}
+table.book-appt-tab{
+    color: rgb(25, 81, 130);
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid rgb(0, 94, 157);
+    border-collapse: collapse;
+    background-color: rgba(190, 229, 255, 0.9);
+}
+table.book-appt-tab tr:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.landing-tab{
+    color: aliceblue;
+    font-size: 10px;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    background-color: rgba(36, 113, 165, 0.79);
+}
+th, tr, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.profile-table{
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-size: 15px;
+    width: 50%;
+    border: 1px solid rgb(0, 94, 157);
+    border-collapse: collapse;
+    background-color: rgba(36, 113, 165, 0.79);
+}
+.about-table{
+    color: rgb(25, 81, 130);
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    background-color: rgba(190, 229, 255, 0.9);
+}
+.about-tab-tr{
+    border: none;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/* Buttons */
+.landing-button{
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+  padding: 10px 50px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  font-size: 15px;
+}
+.landing-button:hover{
+  background-color: rgb(187, 228, 255);
+  color: rgb(0, 88, 100);
+  /* border: 0.5px solid rgb(0, 94, 157); */
+}
+.button-his{
+  background-color: rgba(101, 194, 255, 0.795);
+  border: none;
+  height: 30px;
+  color: rgb(249, 249, 249);
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 5px;
+}
+.button-his:hover{
+    background-color: hsla(204, 100%, 29%, 0.747);
+  }
+.appt-button{
+    background-color: rgba(219, 240, 254, 0.795);
+    border: none;
+    height: 30px;
+    width: 200px;
+    color: rgb(16, 59, 100);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+}
+.appt-button:hover{
+    background-color: hsl(204, 100%, 87%);
+}
+.complete{
+    background-color: rgba(219, 240, 254, 0.795);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: rgb(16, 59, 100);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+}
+.complete:hover{
+    background-color: hsl(0, 0%, 99%);
+}
+
+/* Inputs */
+/* .patient-reg-form-input{
+    color: aliceblue;
+    font-size: 25px;
+    width: 10%;
+    margin: 8px 0;
+} */
+/* .patient-reg-form{
+    background-color: rgba(48, 102, 172, 0.788);
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+
+label{
+    /* background-color: rgba(48, 102, 172, 0.788); */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: inline-block;
+    width: 200px;
+    text-align:right;
+    padding: 5px;
+}
+input{
+    text-align: center;
+    width: 235px;
+    height: 18px;
+    font-size: 15px;
+    padding: 5px;
+}
+input[type=submit]
+{
+  background-color: rgba(219, 240, 254, 0.795);
+  border: none;
+  height: 30px;
+  color: rgb(16, 59, 100);
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 5px;
+}
+input[type=button]
+{
+    background-color: rgba(219, 240, 254, 0.795);
+    border: none;
+    height: 30px;
+    color: rgb(16, 59, 100);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+}
+input[type="button"]:hover{
+    background-color: hsl(204, 100%, 76%);
+  }
+input[type="submit"]:hover{
+    background-color: hsl(204, 100%, 76%);
+  }
+
+select{
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+}
